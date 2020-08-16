@@ -1,0 +1,29 @@
+{
+  "name": "monday-mona-actions",
+  "version": "1.0.0",
+  "description": "MondayMona writeback action",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/djdindin/Monday-mona-actions.git"
+  },
+  "author": "Dinnermonster",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/djdindin/Monday-mona-actions/issues"
+  },
+  "homepage": "https://github.com/djdindin/Monday-mona-actions#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.4",
+    "@actions/github": "^4.0.0",
+    "@octokit/action": "^3.0.5",
+    "@octokit/graphql": "^4.5.3",
+    "axios": "^0.19.2",
+    "dotenv": "^8.2.0",
+    "graphql": "^15.3.0",
+    "typescript": "^3.9.7"
+  }
+}
