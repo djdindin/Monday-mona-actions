@@ -115,7 +115,7 @@ var actionBastard = function () {
                         query: "\n                           mutation ($id: Int!, $body: String!){\n                           create_update (item_id: $id, body: $body) {\n                               id\n                           }\n                       }",
                         variables: {
                             id: parseInt(mondayData[i].id),
-                            body: 'From @' + commentPayload.user.login + ':\n' + issueComment
+                            body: 'From @' + commentPayload.user.login + ': ' + '\n' + issueComment + '\n' + 'Link to comment: ' + commentPayload.html_url
                         }
                     };
                     console.log('posting');

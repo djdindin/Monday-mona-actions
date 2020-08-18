@@ -72,7 +72,7 @@ const actionBastard = async function () {
                        }`,
                         variables: {
                             id: parseInt(mondayData[i].id),
-                            body: 'From @' + commentPayload.user.login + ':\n' + issueComment,
+                            body: 'From @' + commentPayload.user.login + ': ' + '\n' + issueComment + '\n' + 'Link to comment: ' + commentPayload.html_url,
                         } 
                 }
             console.log('posting');
