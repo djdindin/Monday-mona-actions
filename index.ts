@@ -53,7 +53,7 @@ const mondayItemData = async function () {
 }
 
 const actionBastard = async function () {
-    if(github.context.payload.comment.user.login != 'mondaymona[bot]'){
+    if(github.context.payload.comment.user.login != 'mondaymona[bot]' && github.context.payload.comment.user.login != 'DinnerMonster'){
     try{
         
             console.log('awaiting data');

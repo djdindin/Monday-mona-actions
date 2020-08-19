@@ -44,7 +44,7 @@ const actionBastard = async()=> {
                     }
             console.log('posting');
             
-               await axios.post(mondayUrl, options , { 
+               var response = await axios.post(mondayUrl, options , { 
                     headers: {
                         Authorization: mondayToken,
                     }
