@@ -92,7 +92,7 @@ var actionBastard = function () {
         return __generator(this, function (_c) {
             switch (_c.label) {
                 case 0:
-                    if (!(github.context.payload.comment.user.login != 'mondaymona[bot]' && github.context.payload.comment.user.login != 'DinnerMonster')) return [3 /*break*/, 8];
+                    if (!(github.context.payload.comment.user.login != 'mondaymona[bot]')) return [3 /*break*/, 8];
                     _c.label = 1;
                 case 1:
                     _c.trys.push([1, 7, , 8]);
